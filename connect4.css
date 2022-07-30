@@ -17,5 +17,6 @@ td{
     td{
         width: 74px;
         height: 74px;
+        background-color: red;
     }
 }
