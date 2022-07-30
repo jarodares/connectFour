@@ -7,8 +7,15 @@
 }
 
 td{
-    width: 74px;
-    height: 74px;
+    /* width height 74px default big devices */
+    width: 50px;
+    height: 50px;
     background-color: #bbb;
     border-radius: 50%;
+}
+@media (min-width: 768px){
+    td{
+        width: 74px;
+        height: 74px;
+    }
 }
